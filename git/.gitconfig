@@ -1,0 +1,25 @@
+[user]
+	name = Your Name
+	email = your@email.com
+
+[core]
+	editor = vi
+
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = false
+
+[push]
+	autoSetupRemote = true
+
+[color]
+	ui = auto
+
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	lg = log --oneline --graph --decorate --all
