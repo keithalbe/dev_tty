@@ -1,6 +1,6 @@
 # dev_tty
 
-My personal terminal and shell setup for a clean, reproducible dev environment.
+My daily terminal configuration for a comfortable, quickly reproducible dev environment.
 
 ## What it does
 
