@@ -32,7 +32,4 @@ fi
 echo "==> Linking configs..."
 ln -sf "$REPO_ROOT/zsh/.zshrc"     "$HOME/.zshrc"
 ln -sf "$REPO_ROOT/git/.gitconfig" "$HOME/.gitconfig"
-
-echo ""
 echo "Done."
-echo "Run: source ~/.zshrc"

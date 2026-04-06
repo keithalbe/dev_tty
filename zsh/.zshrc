@@ -1,15 +1,11 @@
 export OMZ="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
-
 plugins=(
   git
 )
-
-# Resolve repo root from this file's real location
-DEV_TTY_ROOT="$(cd "$(dirname "${(%):-%N}")/.." && pwd)"
-
-# Source from the repo
 source "$OMZ/oh-my-zsh.sh"
+
+export DEV_TTY_ROOT="$(cd "$(dirname "$(realpath "$HOME/.zshrc")")/.." && pwd)"
 source "$DEV_TTY_ROOT/zsh/aliases.zsh"
 [[ -f "$DEV_TTY_ROOT/zsh/local.zsh" ]] && source "$DEV_TTY_ROOT/zsh/local.zsh"
 

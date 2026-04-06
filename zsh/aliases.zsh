@@ -1,17 +1,9 @@
-alias ll="ls -lah"
-alias la="ls -A"
+alias    zshrc="vi $DEV_TTY_ROOT/zsh/.zshrc"
+alias  aliases="vi $DEV_TTY_ROOT/zsh/aliases.zsh"
+alias resource="source $DEV_TTY_ROOT/zsh/.zshrc"
+
 alias  l="ls -CF"
+alias ll="ls -lah"
 
 alias  ..="cd .."
 alias ...="cd ../.."
-
-alias  gs="git status"
-alias  ga="git add"
-alias  gc="git commit"
-alias  gp="git push"
-alias  gl="git pull"
-alias  gd="git diff"
-alias  gb="git branch"
-alias gco="git checkout"
-
-alias v="vi"
